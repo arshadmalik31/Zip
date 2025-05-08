@@ -56,11 +56,13 @@ Server server = new Server(5000);
 
 
 Step 7: Compile and execute application programs
+#javac Search.java
 #javac SearchQuery.java
 #rmic SearchQuery
-#rmiregistry on console
+#rmiregistry &
 On console-1:
 Compile Server Application:
+#javac SearchServer.java
 #javac Server.java
 #java Server
 On console-2:
