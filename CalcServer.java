@@ -1,3 +1,20 @@
+[Save Below code as Calc.idl]
+module CalcApp 
+{
+interface Calc
+{
+exception DivisionByZero {};
+float sum(in float a, in float b);
+float div(in float a, in float b) raises (DivisionByZero);
+float mul(in float a, in float b);
+float sub(in float a, in float b);
+};
+};
+
+
+
+
+[Save Below code as CalcServer.java]
 import CalcApp.*;
 import CalcApp.CalcPackage.DivisionByZero;
 import org.omg.CosNaming.*;
