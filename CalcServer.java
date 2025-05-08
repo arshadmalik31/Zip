@@ -65,3 +65,19 @@ e.printStackTrace(System.out);
 System.out.println("Exiting ...");
 }
 }
+
+
+
+
+
+
+At 1st Console
+1) idlj -fall Calc.idl
+2) javac -Xlint .java CalcApp/.java
+3) orbd -ORBInitialPort 1050&
+At 2nd Console
+1) javac CalcServer.java
+2) java CalcServer -ORBInitialPort 1050&
+At 3rd Console
+1) javac CalcClient.java
+2) java CalcClient -ORBInitialPort 1050
