@@ -49,3 +49,9 @@ System.out.println("Invalid Input");
 }while( ch == 1 );
 }
 }
+
+
+
+javac tokenring.java
+java tokenring
+
