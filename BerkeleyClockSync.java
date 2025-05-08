@@ -38,3 +38,10 @@ System.out.println();
 System.out.println("Master clock: " + masterClock);
 }
 }
+
+
+
+
+javac BerkeleyClockSync.java
+java BerkeleyClockSync.java
+  
