@@ -51,3 +51,19 @@ public static void main(String args[])
 Server server = new Server(5000);
 }
 }
+
+
+
+
+Step 7: Compile and execute application programs
+#javac SearchQuery.java
+#rmic SearchQuery
+#rmiregistry on console
+On console-1:
+Compile Server Application:
+#javac Server.java
+#java Server
+On console-2:
+Compile Client Application:
+#javac Client.java
+#java Client
