@@ -10,3 +10,14 @@ printf("Hello, world, I am %d of %d\n",rank, size);
 MPI_Finalize();
 return 0;
 }
+
+
+
+mpicc hello.c
+mpirun -np 0 ./a.out
+
+mpicc world1.c
+mpirun -np 0 ./a.out
+
+mpicc world.c
+mpirun -np 0 ./a.out
