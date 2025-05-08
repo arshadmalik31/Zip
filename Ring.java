@@ -123,3 +123,12 @@ public int f;
 String state;
 // indiactes whether active or inactive state of node
 }
+
+
+
+
+javac *.java
+java Ring
+
+javac *.java
+java Bully
