@@ -73,7 +73,9 @@ System.out.println("Exiting ...");
 
 At 1st Console
 1) idlj -fall Calc.idl
-2) javac -Xlint .java CalcApp/.java
+2) javac *.java CalcApp/*.java
+   OR
+   javac -Xlint .java CalcApp/.java
 3) orbd -ORBInitialPort 1050&
 At 2nd Console
 1) javac CalcServer.java
